@@ -7,4 +7,8 @@ class Env
     p "open env: #{Time.new}"
     <h>Open Env: <%= Time.new %></h>
   end
+  def "/end"
+    p "byebye: #{Time.new}"
+    <h>End: <%= Time.new%></h>
+  end
 end
