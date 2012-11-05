@@ -9,6 +9,11 @@ class Env
     <h>Open Env: <%= Time.new %></h>
   end
 
+  def "/test"
+    p "open test: #{Time.new}"
+    <h>Open Test: <%= Time.new %></h>
+  end
+
   def "/end"
     p "byebye: #{Time.new}"
     <h>End: <%= Time.new%></h>
